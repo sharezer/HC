@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resource">
+      <UniqueIdentifier>{cde91f70-a0b6-49e8-b0ce-19639cfb57fb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="Support File">
+      <UniqueIdentifier>{b2e004ee-7061-466f-b509-d7f91d1da07e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{0393a775-22a8-4a4b-ad1f-79af49f0d7b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game">
+      <UniqueIdentifier>{1639f6dc-db6d-4b6d-a88b-4612800f7261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Menu">
+      <UniqueIdentifier>{229ff895-27a2-4eee-8e5e-3923b12f8abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Gobal">
+      <UniqueIdentifier>{5df33239-39ca-426a-b348-b727d3032ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\MapSprite">
+      <UniqueIdentifier>{86f907c4-5747-47c7-8c16-a56f2974cb4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Homecoming.ico">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Homecoming.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Support File</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Support File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\GamingS.h">
+      <Filter>Classes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\Map.h">
+      <Filter>Classes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Gobal\GameManager.h">
+      <Filter>Classes\Gobal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Gobal\UserData.h">
+      <Filter>Classes\Gobal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\SimpleDPad.h">
+      <Filter>Classes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Menu\MenuSence.h">
+      <Filter>Classes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Menu\MenuStartL.h">
+      <Filter>Classes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Menu\MissionSelectL.h">
+      <Filter>Classes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\ActionSprite.h">
+      <Filter>Classes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapSprite\MapSprite.h">
+      <Filter>Classes\MapSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapSprite\MapSprite10.h">
+      <Filter>Classes\MapSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapSprite\MapSprite12.h">
+      <Filter>Classes\MapSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapSprite\MapSprite13.h">
+      <Filter>Classes\MapSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapSprite\MapSprite14.h">
+      <Filter>Classes\MapSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapSprite\MapSprite15.h">
+      <Filter>Classes\MapSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapSprite\MapSprite16.h">
+      <Filter>Classes\MapSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapSprite\MapSprite17.h">
+      <Filter>Classes\MapSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapSprite\MapSprite02.h">
+      <Filter>Classes\MapSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapSprite\MapSprite03.h">
+      <Filter>Classes\MapSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapSprite\MapSprite04.h">
+      <Filter>Classes\MapSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapSprite\MapSprite06.h">
+      <Filter>Classes\MapSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapSprite\MapSprite07.h">
+      <Filter>Classes\MapSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapSprite\MapSprite08.h">
+      <Filter>Classes\MapSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapSprite\MapSprite09.h">
+      <Filter>Classes\MapSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapSprite\MapSprite05.h">
+      <Filter>Classes\MapSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Menu\MenuItemImageSub.h">
+      <Filter>Classes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\PauseL.h">
+      <Filter>Classes\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Support File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\GamingS.cpp">
+      <Filter>Classes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\Map.cpp">
+      <Filter>Classes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Gobal\GameManager.cpp">
+      <Filter>Classes\Gobal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Gobal\UserData.cpp">
+      <Filter>Classes\Gobal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\SimpleDPad.cpp">
+      <Filter>Classes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Menu\MenuSence.cpp">
+      <Filter>Classes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Menu\MenuStartL.cpp">
+      <Filter>Classes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Menu\MissionSelectL.cpp">
+      <Filter>Classes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\ActionSprite.cpp">
+      <Filter>Classes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapSprite\MapSprite.cpp">
+      <Filter>Classes\MapSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapSprite\MapSprite10.cpp">
+      <Filter>Classes\MapSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapSprite\MapSprite12.cpp">
+      <Filter>Classes\MapSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapSprite\MapSprite13.cpp">
+      <Filter>Classes\MapSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapSprite\MapSprite14.cpp">
+      <Filter>Classes\MapSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapSprite\MapSprite15.cpp">
+      <Filter>Classes\MapSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapSprite\MapSprite16.cpp">
+      <Filter>Classes\MapSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapSprite\MapSprite17.cpp">
+      <Filter>Classes\MapSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapSprite\MapSprite02.cpp">
+      <Filter>Classes\MapSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapSprite\MapSprite03.cpp">
+      <Filter>Classes\MapSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapSprite\MapSprite04.cpp">
+      <Filter>Classes\MapSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapSprite\MapSprite06.cpp">
+      <Filter>Classes\MapSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapSprite\MapSprite07.cpp">
+      <Filter>Classes\MapSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapSprite\MapSprite08.cpp">
+      <Filter>Classes\MapSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapSprite\MapSprite09.cpp">
+      <Filter>Classes\MapSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapSprite\MapSprite05.cpp">
+      <Filter>Classes\MapSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Menu\MenuItemImageSub.cpp">
+      <Filter>Classes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\PauseL.cpp">
+      <Filter>Classes\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
